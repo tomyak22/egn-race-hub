@@ -4,7 +4,7 @@ export class ChampionshipCalculator {
 
     public static calcTotalPoints(params: any): number {
         let totalPoints: number;
-        totalPoints = params.data.driver.bahrain.points + params.data.driver.france.points + params.data.driver.belgium.points
+        totalPoints = params.data.driver.bahrain.points + params.data.driver.france.points + params.data.driver.belgium.points + params.data.driver.silverstone.points
         return totalPoints;
     }
 }

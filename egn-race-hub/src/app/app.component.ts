@@ -8,5 +8,5 @@ import { DRIVER_DATA } from './driver-grid-div-1/driver-data/driver.data';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'egn-race-hub';
+  title = 'esports-race-hub';
 }

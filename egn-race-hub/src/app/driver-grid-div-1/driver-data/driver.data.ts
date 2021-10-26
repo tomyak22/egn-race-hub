@@ -20,6 +20,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P11'),
                 fastestLap: false
             },
+            silverstone: {
+                result: 'P11',
+                points: DriverPointsMapper.mapDriverPoints('P11'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -40,6 +45,11 @@ export const DRIVER_DATA = [
                 result: 'DNF',
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P5',
+                points: DriverPointsMapper.mapDriverPoints('P5'),
+                fastestLap: false
             },
         }
     },
@@ -62,6 +72,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P8'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'P2',
+                points: DriverPointsMapper.mapDriverPoints('P2'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -82,6 +97,11 @@ export const DRIVER_DATA = [
                 result: 'DNS',
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P12',
+                points: DriverPointsMapper.mapDriverPoints('P12'),
+                fastestLap: false
             },
         }
     },
@@ -104,6 +124,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P2'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'P10',
+                points: DriverPointsMapper.mapDriverPoints('P10'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -124,6 +149,11 @@ export const DRIVER_DATA = [
                 result: 'DNF',
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P8',
+                points: DriverPointsMapper.mapDriverPoints('P8'),
+                fastestLap: false
             },
         }
     },
@@ -146,6 +176,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -166,6 +201,11 @@ export const DRIVER_DATA = [
                 result: 'DNS',
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
             },
         }
     },
@@ -188,6 +228,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P13'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'P13',
+                points: DriverPointsMapper.mapDriverPoints('P13'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -208,6 +253,11 @@ export const DRIVER_DATA = [
                 result: 'P6',
                 points: DriverPointsMapper.mapDriverPoints('P6'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
             },
         }
     },
@@ -230,6 +280,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P4') + 1,
                 fastestLap: true,
             },
+            silverstone: {
+                result: 'P9',
+                points: DriverPointsMapper.mapDriverPoints('P9'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -250,6 +305,11 @@ export const DRIVER_DATA = [
                 result: 'P1',
                 points: DriverPointsMapper.mapDriverPoints('P1'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P1',
+                points: DriverPointsMapper.mapDriverPoints('P1') + 1,
+                fastestLap: true
             },
         }
     },
@@ -272,6 +332,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -292,6 +357,11 @@ export const DRIVER_DATA = [
                 result: 'P3',
                 points: DriverPointsMapper.mapDriverPoints('P3'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P15',
+                points: DriverPointsMapper.mapDriverPoints('P15'),
+                fastestLap: false
             },
         }
     },
@@ -314,6 +384,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P7'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'P7',
+                points: DriverPointsMapper.mapDriverPoints('P7'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -334,6 +409,11 @@ export const DRIVER_DATA = [
                 result: 'P10',
                 points: DriverPointsMapper.mapDriverPoints('P10'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P4',
+                points: DriverPointsMapper.mapDriverPoints('P4'),
+                fastestLap: false
             },
         }
     },
@@ -356,6 +436,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P5'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'P3',
+                points: DriverPointsMapper.mapDriverPoints('P3'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -376,6 +461,11 @@ export const DRIVER_DATA = [
                 result: 'P12',
                 points: DriverPointsMapper.mapDriverPoints('P12'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'P14',
+                points: DriverPointsMapper.mapDriverPoints('P14'),
+                fastestLap: false
             },
         }
     },
@@ -398,6 +488,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -418,6 +513,11 @@ export const DRIVER_DATA = [
                 result: 'DNS',
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
             },
         }
     },
@@ -440,10 +540,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P9'),
                 fastestLap: false,
             },
-            bahrainResult: '-',
-            bahrainPoints: DriverPointsMapper.mapDriverPoints('-'),
-            franceResult: 'P5',
-            francePoints: DriverPointsMapper.mapDriverPoints('P5'),
+            silverstone: {
+                result: 'P6',
+                points: DriverPointsMapper.mapDriverPoints('P6'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -465,10 +566,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('-'),
                 fastestLap: false,
             },
-            bahrainResult: '-',
-            bahrainPoints: DriverPointsMapper.mapDriverPoints('-'),
-            franceResult: 'P15',
-            francePoints: DriverPointsMapper.mapDriverPoints('P15'),
+            silverstone: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -490,6 +592,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('P14'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -510,6 +617,11 @@ export const DRIVER_DATA = [
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false,
             },
+            silverstone: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -529,6 +641,11 @@ export const DRIVER_DATA = [
                 result: 'DNF',
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false,
+            },
+            silverstone: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
             },
         }
     },

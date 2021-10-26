@@ -129,27 +129,6 @@ export const DRIVER_DATA_2 = [
     },
     {
         driver: {
-            name: 'Spud',
-            team: 'aston-martin',
-            bahrain: {
-                result: 'P8',
-                points: DriverPointsMapper.mapDriverPoints('P8'),
-                fastestLap: false,
-            },
-            france: {
-                result: 'P17',
-                points: DriverPointsMapper.mapDriverPoints('P17'),
-                fastestLap: false
-            },
-            belgium: {
-                result: 'DNF',
-                points: DriverPointsMapper.mapDriverPoints('DNF'),
-                fastestLap: false
-            },
-        }
-    },
-    {
-        driver: {
             name: 'Jiv',
             team: 'alfa-romeo',
             bahrain: {
@@ -268,8 +247,8 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             belgium: {
-                result: 'DNF',
-                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                result: 'P12',
+                points: DriverPointsMapper.mapDriverPoints('P12'),
                 fastestLap: false
             },
         }
@@ -343,17 +322,17 @@ export const DRIVER_DATA_2 = [
             team: 'ferrari',
             bahrain: {
                 result: 'P15',
-                points: DriverPointsMapper.mapDriverPoints('P11'),
+                points: DriverPointsMapper.mapDriverPoints('P15'),
                 fastestLap: false,
             },
             france: {
                 result: 'P16',
-                points: DriverPointsMapper.mapDriverPoints('P14'),
+                points: DriverPointsMapper.mapDriverPoints('P16'),
                 fastestLap: false
             },
             belgium: {
-                result: 'DNF',
-                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                result: 'P13',
+                points: DriverPointsMapper.mapDriverPoints('P13'),
                 fastestLap: false
             },
         }
@@ -405,18 +384,18 @@ export const DRIVER_DATA_2 = [
             name: 'Bill',
             team: 'williams',
             bahrain: {
-                result: 'P13',
-                points: DriverPointsMapper.mapDriverPoints('P13'),
+                result: 'P3',
+                points: DriverPointsMapper.mapDriverPoints('P3'),
                 fastestLap: false,
             },
             france: {
-                result: 'P7',
-                points: DriverPointsMapper.mapDriverPoints('P7'),
+                result: 'P12',
+                points: DriverPointsMapper.mapDriverPoints('P12'),
                 fastestLap: false
             },
             belgium: {
-                result: 'P6',
-                points: DriverPointsMapper.mapDriverPoints('P6'),
+                result: 'P7',
+                points: DriverPointsMapper.mapDriverPoints('P7'),
                 fastestLap: false
             },
         }

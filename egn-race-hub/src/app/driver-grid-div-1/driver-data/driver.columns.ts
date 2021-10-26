@@ -94,15 +94,28 @@ export const DRIVER_COL_DEF = [
     //         }
     //     ]
     // },
-    // {
-    //     headerName: 'Silverstone',
-    //     children: [
-    //         {
-    //             headerName: 'Position',
-    //             field: 'driver.silverstoneResult'
-    //         }
-    //     ]
-    // },
+     {
+        headerName: 'Silverstone',
+        children: [
+            {
+                headerName: 'Result',
+                field: 'driver.silverstone.result',
+                columnGroupShow: ['closed', 'open'],
+                cellStyle: (params: any) => {
+                    
+                    if (params.data && params.data.driver.silverstone.fastestLap) {
+                        return { backgroundColor: 'purple', opacity: '75%' }
+                    }
+                    return null;
+                }
+            },
+            {
+                headerName: 'Points',
+                field: 'driver.silverstone.points',
+                columnGroupShow: 'open'
+            }
+        ]
+    },
     // {
     //     headerName: 'Portugal',
     //     children: [

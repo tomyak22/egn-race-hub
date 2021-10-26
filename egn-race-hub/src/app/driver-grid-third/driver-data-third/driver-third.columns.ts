@@ -7,8 +7,7 @@ export const DRIVER_COL_DEF_3 = [
         field: 'driver.name',
         cellRenderer: (params: ICellRendererParams) => {
             const teamLogo = params.data.driver.team ? params.data.driver.team : 'noTeam'
-            debugger;
-            return params.value + ' ' + `<span><img class="team-image" src="/assets/${teamLogo}.png"></span>`
+            return  `<span><img class="team-image" src="/assets/${teamLogo}.png"></span>` + params.value
         }
     },
     {
