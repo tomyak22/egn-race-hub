@@ -80,8 +80,21 @@ export const DRIVER_COL_DEF = [
     //     headerName: 'Brazil',
     //     children: [
     //         {
-    //             headerName: 'Position',
-    //             field: 'driver.brazilResult'
+    //             headerName: 'Result',
+    //             field: 'driver.brazil.result',
+    //             columnGroupShow: ['closed', 'open'],
+    //             cellStyle: (params: any) => {
+                    
+    //                 if (params.data && params.data.driver.brazil.fastestLap) {
+    //                     return { backgroundColor: 'purple', opacity: '75%' }
+    //                 }
+    //                 return null;
+    //             }
+    //         },
+    //         {
+    //             headerName: 'Points',
+    //             field: 'driver.brazil.points',
+    //             columnGroupShow: 'open'
     //         }
     //     ]
     // },
