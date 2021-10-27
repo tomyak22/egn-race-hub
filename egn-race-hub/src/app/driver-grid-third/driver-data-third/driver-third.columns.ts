@@ -7,7 +7,7 @@ export const DRIVER_COL_DEF_3 = [
         field: 'driver.name',
         cellRenderer: (params: ICellRendererParams) => {
             const teamLogo = params.data.driver.team ? params.data.driver.team : 'noTeam'
-            return  `<span><img class="team-image" src="/assets/${teamLogo}.png"></span>` + params.value
+            return `<span><img class="team-image" src="/assets/${teamLogo}.png"></span>` + params.value
         }
     },
     {
@@ -18,7 +18,7 @@ export const DRIVER_COL_DEF_3 = [
                 field: 'driver.bahrain.result',
                 columnGroupShow: ['closed', 'open'],
                 cellStyle: (params: any) => {
-                    
+
                     if (params.data && params.data.driver.bahrain.fastestLap) {
                         return { backgroundColor: 'purple', opacity: '75%' }
                     }
@@ -40,7 +40,7 @@ export const DRIVER_COL_DEF_3 = [
                 field: 'driver.france.result',
                 columnGroupShow: ['closed', 'open'],
                 cellStyle: (params: any) => {
-                    
+
                     if (params.data && params.data.driver.france.fastestLap) {
                         return { backgroundColor: 'purple', opacity: '75%' }
                     }
@@ -62,7 +62,7 @@ export const DRIVER_COL_DEF_3 = [
                 field: 'driver.belgium.result',
                 columnGroupShow: ['closed', 'open'],
                 cellStyle: (params: any) => {
-                    
+
                     if (params.data && params.data.driver.belgium.fastestLap) {
                         return { backgroundColor: 'purple', opacity: '75%' }
                     }
@@ -77,28 +77,6 @@ export const DRIVER_COL_DEF_3 = [
         ]
     },
     {
-        headerName: 'Belgium',
-        children: [
-            {
-                headerName: 'Result',
-                field: 'driver.belgium.result',
-                columnGroupShow: ['closed', 'open'],
-                cellStyle: (params: any) => {
-                    
-                    if (params.data && params.data.driver.belgium.fastestLap) {
-                        return { backgroundColor: 'purple', opacity: '75%' }
-                    }
-                    return null;
-                }
-            },
-            {
-                headerName: 'Points',
-                field: 'driver.belgium.points',
-                columnGroupShow: 'open'
-            }
-        ]
-    },
-     {
         headerName: 'Brazil',
         children: [
             {
@@ -106,7 +84,7 @@ export const DRIVER_COL_DEF_3 = [
                 field: 'driver.brazil.result',
                 columnGroupShow: ['closed', 'open'],
                 cellStyle: (params: any) => {
-                    
+
                     if (params.data && params.data.driver.brazil.fastestLap) {
                         return { backgroundColor: 'purple', opacity: '75%' }
                     }
@@ -128,7 +106,7 @@ export const DRIVER_COL_DEF_3 = [
                 field: 'driver.austria.result',
                 columnGroupShow: ['closed', 'open'],
                 cellStyle: (params: any) => {
-                    
+
                     if (params.data && params.data.driver.austria.fastestLap) {
                         return { backgroundColor: 'purple', opacity: '75%' }
                     }
@@ -142,15 +120,28 @@ export const DRIVER_COL_DEF_3 = [
             }
         ]
     },
-    // {
-    //     headerName: 'Silverstone',
-    //     children: [
-    //         {
-    //             headerName: 'Position',
-    //             field: 'driver.silverstoneResult'
-    //         }
-    //     ]
-    // },
+    {
+        headerName: 'Silverstone',
+        children: [
+            {
+                headerName: 'Result',
+                field: 'driver.silverstone.result',
+                columnGroupShow: ['closed', 'open'],
+                cellStyle: (params: any) => {
+
+                    if (params.data && params.data.driver.silverstone.fastestLap) {
+                        return { backgroundColor: 'purple', opacity: '75%' }
+                    }
+                    return null;
+                }
+            },
+            {
+                headerName: 'Points',
+                field: 'driver.silverstone.points',
+                columnGroupShow: 'open'
+            }
+        ]
+    },
     // {
     //     headerName: 'Portugal',
     //     children: [
