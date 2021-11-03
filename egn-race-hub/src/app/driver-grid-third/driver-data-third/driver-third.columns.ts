@@ -142,15 +142,28 @@ export const DRIVER_COL_DEF_3 = [
             }
         ]
     },
-    // {
-    //     headerName: 'Portugal',
-    //     children: [
-    //         {
-    //             headerName: 'Position',
-    //             field: 'driver.portugalResult'
-    //         }
-    //     ]
-    // },
+    {
+        headerName: 'Portugal',
+        children: [
+            {
+                headerName: 'Result',
+                field: 'driver.portugal.result',
+                columnGroupShow: ['closed', 'open'],
+                cellStyle: (params: any) => {
+
+                    if (params.data && params.data.driver.portugal.fastestLap) {
+                        return { backgroundColor: 'purple', opacity: '75%' }
+                    }
+                    return null;
+                }
+            },
+            {
+                headerName: 'Points',
+                field: 'driver.portugal.points',
+                columnGroupShow: 'open'
+            }
+        ]
+    },
     // {
     //     headerName: 'Azerbaijan',
     //     children: [
