@@ -40,6 +40,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P10'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -77,6 +82,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             portugal: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
+            },
+            baku: {
                 result: 'DNS',
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
@@ -122,6 +132,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P6'),
                 fastestLap: false
             },
+            baku: {
+                result: 'P6',
+                points: DriverPointsMapper.mapDriverPoints('P6') + 1,
+                fastestLap: true
+            },
         }
     },
     {
@@ -161,6 +176,11 @@ export const DRIVER_DATA_2 = [
             portugal: {
                 result: 'DNF',
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
+            baku: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
         }
@@ -204,6 +224,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -245,6 +270,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P9'),
                 fastestLap: false
             },
+            baku: {
+                result: 'P8',
+                points: DriverPointsMapper.mapDriverPoints('P8'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -282,6 +312,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             portugal: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
+            },
+            baku: {
                 result: 'DNS',
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
@@ -327,6 +362,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -366,6 +406,11 @@ export const DRIVER_DATA_2 = [
             portugal: {
                 result: 'P2',
                 points: DriverPointsMapper.mapDriverPoints('P2'),
+                fastestLap: false
+            },
+            baku: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
         }
@@ -409,6 +454,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
+            baku: {
+                result: 'P5',
+                points: DriverPointsMapper.mapDriverPoints('P5'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -448,6 +498,11 @@ export const DRIVER_DATA_2 = [
             portugal: {
                 result: 'P4',
                 points: DriverPointsMapper.mapDriverPoints('P4'),
+                fastestLap: false
+            },
+            baku: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
         }
@@ -491,6 +546,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false
             },
+            baku: {
+                result: 'P4',
+                points: DriverPointsMapper.mapDriverPoints('P4'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -528,6 +588,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: true
             },
             portugal: {
+                result: 'P1',
+                points: DriverPointsMapper.mapDriverPoints('P1'),
+                fastestLap: false
+            },
+            baku: {
                 result: 'P1',
                 points: DriverPointsMapper.mapDriverPoints('P1'),
                 fastestLap: false
@@ -573,6 +638,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P3'),
                 fastestLap: false
             },
+            baku: {
+                result: 'P3',
+                points: DriverPointsMapper.mapDriverPoints('P3'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -610,6 +680,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             portugal: {
+                result: 'DNS',
+                points: DriverPointsMapper.mapDriverPoints('DNS'),
+                fastestLap: false
+            },
+            baku: {
                 result: 'DNS',
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
@@ -655,6 +730,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -696,6 +776,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P7'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -733,6 +818,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             portugal: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
+            baku: {
                 result: 'DNF',
                 points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false
@@ -778,6 +868,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('DNS'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -819,6 +914,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P5'),
                 fastestLap: false
             },
+            baku: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -856,6 +956,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             portugal: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            baku: {
                 result: '-',
                 points: DriverPointsMapper.mapDriverPoints('-'),
                 fastestLap: false
@@ -901,6 +1006,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('-'),
                 fastestLap: false
             },
+            baku: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -938,6 +1048,11 @@ export const DRIVER_DATA_2 = [
                 fastestLap: false
             },
             portugal: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            baku: {
                 result: '-',
                 points: DriverPointsMapper.mapDriverPoints('-'),
                 fastestLap: false
@@ -983,6 +1098,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('-'),
                 fastestLap: false
             },
+            baku: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -1024,6 +1144,11 @@ export const DRIVER_DATA_2 = [
                 points: DriverPointsMapper.mapDriverPoints('P11'),
                 fastestLap: true
             },
+            baku: {
+                result: 'P2',
+                points: DriverPointsMapper.mapDriverPoints('P2'),
+                fastestLap: false
+            },
         }
     },
     {
@@ -1063,6 +1188,57 @@ export const DRIVER_DATA_2 = [
             portugal: {
                 result: 'P8',
                 points: DriverPointsMapper.mapDriverPoints('P8'),
+                fastestLap: false
+            },
+            baku: {
+                result: 'P7',
+                points: DriverPointsMapper.mapDriverPoints('P7'),
+                fastestLap: false
+            },
+        }
+    },
+    {
+        driver: {
+            name: 'Jyles',
+            team: 'haas',
+            bahrain: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false,
+            },
+            france: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            belgium: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            brazil: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            austria: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            silverstone: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            portugal: {
+                result: '-',
+                points: DriverPointsMapper.mapDriverPoints('-'),
+                fastestLap: false
+            },
+            baku: {
+                result: 'DNF',
+                points: DriverPointsMapper.mapDriverPoints('DNF'),
                 fastestLap: false
             },
         }

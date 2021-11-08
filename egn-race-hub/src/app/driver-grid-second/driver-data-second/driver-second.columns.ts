@@ -160,15 +160,28 @@ export const DRIVER_COL_DEF_2 = [
             }
         ]
     },
-    // {
-    //     headerName: 'Azerbaijan',
-    //     children: [
-    //         {
-    //             headerName: 'Position',
-    //             field: 'driver.azerbaijanResult'
-    //         }
-    //     ]
-    // },
+    {
+        headerName: 'Azerbaijan',
+        children: [
+            {
+                headerName: 'Result',
+                field: 'driver.baku.result',
+                columnGroupShow: ['closed', 'open'],
+                cellStyle: (params: any) => {
+
+                    if (params.data && params.data.driver.baku.fastestLap) {
+                        return { backgroundColor: 'purple', opacity: '75%' }
+                    }
+                    return null;
+                }
+            },
+            {
+                headerName: 'Points',
+                field: 'driver.baku.points',
+                columnGroupShow: 'open'
+            }
+        ]
+    },
     {
         headerName: 'Championship Points',
         valueGetter: (params: ValueGetterParams) => ChampionshipCalculator.calcTotalPoints(params)
